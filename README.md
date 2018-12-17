@@ -12,6 +12,7 @@ The files are sorted by Date and Location using 5 parameters: Year, Month, Count
 To prevent lots of directories, with few files, the algorithm collapses directories with only a few (specifcally 4) entries (sub-directories or files). The algorithm will always keep at least 2 levels (year and month, in the default sort order). Both these limits are also modifiable.
 
 ***
+```
 usage: dps.py [-h] [--storage-levels STORAGE_LEVELS]
               [--storage-min STORAGE_MIN] [--dry-run] [--show-collapse]
               [--order ORDER] [--google GOOGLE] [--show-cached]
@@ -35,7 +36,7 @@ optional arguments:
   --google GOOGLE       Google Maps API Key. Specify this key to use Google
                         Maps reverse geo-code service
   --show-cached         Show cached (previous) elements in directory structure
-
+```
 
 
 
