@@ -11,6 +11,12 @@ The files are sorted by Date and Location using 5 parameters: Year, Month, Count
 
 To prevent lots of directories, with few files, the algorithm collapses directories with only a few (specifcally 4) entries (sub-directories or files). The algorithm will always keep at least 2 levels (year and month, in the default sort order). Both these limits are also modifiable.
 
+Requires Pillow python image library. Install with `$ pip install Pillow`
+
+If using Google maps API, you'll need to provide the Google API key in the command line and have Google MAPS python module installed as well. https://github.com/googlemaps/google-maps-services-python
+
+Install with `$ pip install -U googlemaps`
+
 ***
 ```
 usage: dps.py [-h] [--storage-levels STORAGE_LEVELS]
